@@ -1,0 +1,20 @@
+﻿.headline-box {
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	width: 100%;
+}
+
+.headline {
+	font-size: 6rem;
+	margin: 0px;
+	color: purple;
+}
+
+/* 480px以下に適用されるCSS（スマホ用） */
+@media screen and (max-width: 480px) {
+
+	.headline {
+		font-size: 4rem;
+	}
+}
