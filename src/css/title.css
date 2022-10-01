@@ -23,6 +23,29 @@ img.title {
 	margin: 0px;
 }
 
+/* 959px以下に適用されるCSS（タブレット用） */
+/* @media screen and (max-width: 959px) {} */
+
+/* 480px以下に適用されるCSS（スマホ用） */
+@media screen and (max-width: 480px) {
+
+	.title-box {
+		top: 25%;
+	}
+
+	h1 {
+		font-size: 2rem;
+		font-style: normal;
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+
+	img.title {
+		width: 100%;
+		margin: 0px;
+	}
+}
+
 /* 
 .sunny-loading,
 .sunny-logo,
@@ -71,22 +94,6 @@ section ul {
 	margin-bottom: 10px;
 }
 
-@media screen and (max-width: 959px) {
 
-	/* 959px以下に適用されるCSS（タブレット用） */
-/*
-.sunny-menu-item {
-	width: 40%;
-}
-}
-
-@media screen and (max-width: 480px) {
-
-	/* 480px以下に適用されるCSS（スマホ用） */
-/*
-	.sunny-menu-item {
-		width: 100%;
-	}
-}
 
 */

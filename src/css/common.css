@@ -8,11 +8,18 @@ body {
 .full {
 	position: relative;
 	width: 100%;
+	min-width: 50vh;
 	min-height: 100vh;
 }
 
 .background1 {
 	background-image: url(../img/background1.svg);
+	background-size: cover;
+	background-position: center;
+}
+
+.background2 {
+	background-image: url(../img/background2.svg);
 	background-size: cover;
 	background-position: center;
 }
